@@ -1,0 +1,318 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-top:20px;
+}
+#items{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 20px;
+}
+#youtubelogo{
+    margin-left: 20px;
+}
+#youtubelogo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+input{
+    position: absolute;
+    left: 400px;
+    width: 550px;
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: black;
+    border: 1px solid rgb(83, 83, 83);  
+}
+input::placeholder{
+    color: rgb(133, 131, 131);
+    font-size: medium;
+}
+#searchlogo{
+    position: absolute;
+    left: 982px;
+    background-color: rgb(49, 48, 48);
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#miclogo{
+    position: absolute;
+    left: 1060px;
+    background-color: rgb(49, 48, 48);
+    border-radius: 50%;
+    padding: 10px;
+}
+#miclogo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#videologo{
+    position: absolute;
+    right: 140px;
+}
+#belllogo{
+    position: absolute;
+    right: 100px;
+}
+#image{
+    position: absolute;
+    right: 40px;
+    border-radius: 50%;
+}
+#image:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#leftheader{
+    display: inline-block;
+    padding: 40px;
+    padding-top: 17px;
+    padding-right: 80px;
+    background-color: rgb(12, 12, 12); 
+}
+.icons{
+    margin-bottom: 15px;
+}
+.icons:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#icon{
+    padding-left: 20px;
+    font-size:15px;
+}
+#anirudh{
+    border-radius: 50%;
+}
+#subheader{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+#lett1{
+    position: absolute;
+    left: 5px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(61, 61, 61);
+}
+#lett1:hover{
+    cursor: pointer;
+    background-color: rgb(125, 123, 123);
+}
+#lett2{
+    position: absolute;
+    left:90px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(61, 61, 61);
+}
+#lett2:hover{
+    cursor: pointer;
+    background-color: rgb(125, 123, 123);
+}
+#lett3{
+    position: absolute;
+    left: 200px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(61, 61, 61); 
+}
+#lett3:hover{
+    cursor: pointer;
+    background-color: rgb(125, 123, 123);
+}
+#lett4{
+    position: absolute;
+    left: 280px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(61, 61, 61);
+}
+#lett4:hover{
+    cursor: pointer;
+    background-color: rgb(125, 123, 123);
+}
+#lett5{
+    position: absolute;
+    left: 490px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(61, 61, 61);
+}
+#lett5:hover{
+    cursor: pointer;
+    background-color: rgb(125, 123, 123);
+}
+#lett6{
+    position: absolute;
+    left: 670px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(61, 61, 61);
+}
+#lett6:hover{
+    cursor: pointer;
+    background-color: rgb(125, 123, 123);
+}
+#lett7{
+    position: absolute;
+    left: 900px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(61, 61, 61);
+}
+#lett7:hover{
+    cursor: pointer;
+    background-color: rgb(125, 123, 123);
+}
+#lett8{
+    position: absolute;
+    left: 1080px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(61, 61, 61);
+}
+#lett8:hover{
+    cursor: pointer;
+    background-color: rgb(125, 123, 123);
+}
+#amigos{
+    position: absolute;
+    left: 300px;
+    top: 160px;
+    border-radius: 10px;
+}
+#amigoslogo{
+    position: absolute;
+    left: 300px;
+    top: 380px;
+    border-radius: 50%;
+}
+#car1{
+    position: absolute;
+    left: 360px;
+    top: 380px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+#jeaking{
+    position: absolute;
+    left: 690px;
+    top: 160px;
+    border-radius: 10px;
+}
+#jeakinglogo{
+    position: absolute;
+    left: 695px;
+    top: 380px;
+    border-radius: 50%;
+}
+#car2{
+    position: absolute;
+    left:750px;
+    top: 380px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+#telusko{
+    position: absolute;
+    left: 1075px;
+    top: 160px;
+    border-radius: 10px;
+}
+#teluskologo{
+    position: absolute;
+    left: 1080px;
+    top: 380px;
+    border-radius: 50%;
+}
+#car3{
+    position: absolute;
+    left:1140px;
+    top: 380px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+#timesnow{
+    position: absolute;
+    left: 300px;
+    top: 470px;
+    border-radius: 10px;
+}
+#timesnowlogo{
+    position: absolute;
+    left: 300px;
+    top: 685px;
+    border-radius: 50%;
+}
+#car4{
+    position: absolute;
+    left:350px;
+    top: 680px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+#supersimple{
+    position: absolute;
+    left: 690px;
+    top: 475px;
+    border-radius: 10px;
+}
+#supersimplelogo{
+    position: absolute;
+    left: 695px;
+    top: 690px;
+    border-radius: 50%;
+}
+#car5{
+    position: absolute;
+    left:750px;
+    top: 685px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+#brown{
+    position: absolute;
+    left: 1080px;
+    top: 470px;
+    border-radius: 10px;
+}
+#brownlogo{
+    position: absolute;
+    left: 1080px;
+    top: 690px;
+    border-radius: 50%;
+}
+#car6{
+    position: absolute;
+    left:1140px;
+    top: 690px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
